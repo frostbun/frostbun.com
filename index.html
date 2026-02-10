@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Mạnh — Game Developer & DevOps Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">~/portfolio</a>
+            <div class="nav-links">
+                <a href="#about">about</a>
+                <a href="#experience">experience</a>
+                <a href="#projects">projects</a>
+                <a href="#contact">contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero + About -->
+    <section id="hero" class="section hero">
+        <div class="container">
+            <p class="hero-prefix">$ whoami</p>
+            <h1 class="hero-name">Nguyễn Mạnh</h1>
+            <p class="hero-subtitle">
+                <span class="typing" id="typing-text"></span><span class="cursor">|</span>
+            </p>
+            <div class="terminal-window" id="about">
+                <div class="terminal-header">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+                    <span class="terminal-title">about.txt</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">$</span> cat about.txt</p>
+                    <p class="terminal-output">
+                        I'm a Unity3D Game Developer & DevOps Engineer based in Hanoi.
+                        I build Unity libraries, game tools, and cloud infrastructure
+                        — turning ideas into polished experiences and automated pipelines.
+                    </p>
+                    <p class="terminal-output">
+                        When I'm not writing code, I'm probably handwiring custom keyboards
+                        or tinkering with self-hosted services.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="prompt">$</span> history --work</h2>
+            <div class="timeline">
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Technical Leader</h3>
+                            <span class="timeline-date">Present</span>
+                        </div>
+                        <p class="timeline-company"><a href="https://theonegamestudio.com/" target="_blank" rel="noopener noreferrer">The One Game Studio</a></p>
+                        <ul class="timeline-details">
+                            <li>Lead game development teams on casual and hyper-casual mobile titles</li>
+                            <li>Architect core game systems, reusable Unity libraries, and tooling</li>
+                            <li>Manage CI/CD pipelines, cloud infrastructure, and deployment workflows</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">Unity</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">DevOps</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="prompt">$</span> ls ~/projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card fade-in">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">UniT</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-desc">A lightweight Unity library for common tasks. Distributed via OpenUPM with 44 releases and active development.</p>
+                        <div class="tech-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">Unity</span>
+                            <span class="tag">OpenUPM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/frostbun/UniT" class="project-link" target="_blank" rel="noopener noreferrer">GitHub &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">UniT.Extensions</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-desc">Common extension methods for Unity. A collection of reusable utilities to enhance productivity in Unity projects.</p>
+                        <div class="tech-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">Unity</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/frostbun/UniT.Extensions" class="project-link" target="_blank" rel="noopener noreferrer">GitHub &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">UniT.Easings</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-desc">Animate Unity using easing functions. Provides smooth animation curves for polished game feel and UI transitions.</p>
+                        <div class="tech-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">Unity</span>
+                            <span class="tag">Animation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/frostbun/UniT.Easings" class="project-link" target="_blank" rel="noopener noreferrer">GitHub &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">phoboard</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-desc">A custom 62-key handwired keyboard. Powered by QMK, VIA, and Vial with full build instructions and CAD files.</p>
+                        <div class="tech-tags">
+                            <span class="tag">QMK</span>
+                            <span class="tag">VIA</span>
+                            <span class="tag">Hardware</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/frostbun/phoboard" class="project-link" target="_blank" rel="noopener noreferrer">GitHub &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="prompt">$</span> ./contact.sh</h2>
+            <div class="contact-terminal fade-in">
+                <div class="terminal-header">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+                    <span class="terminal-title">contact</span>
+                </div>
+                <div class="terminal-body contact-body">
+                    <p class="contact-intro">
+                        <span class="prompt">$</span> echo "Let's connect!"
+                    </p>
+                    <p class="terminal-output contact-msg">
+                        I'm always open to interesting conversations and opportunities.
+                        Feel free to reach out through any of the channels below.
+                    </p>
+                    <div class="contact-links">
+                        <a href="https://github.com/frostbun" class="contact-link" target="_blank" rel="noopener noreferrer">
+                            <span class="prompt">$</span> open github <span class="link-arrow">&rarr;</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/manhnb152/" class="contact-link" target="_blank" rel="noopener noreferrer">
+                            <span class="prompt">$</span> open linkedin <span class="link-arrow">&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p><span class="prompt">$</span> echo "Built with coffee and terminal emulators" <span class="dim">// &copy; 2026</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
