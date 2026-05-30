@@ -2,6 +2,4 @@ Dockerfile
 docker-compose.yml
 .dockerignore
 .git
-.gitignore
 README.md
-.claude
