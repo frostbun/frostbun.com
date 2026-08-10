@@ -1,3 +1,3 @@
-FROM nginx:alpine
+FROM docker.io/library/nginx:alpine
 COPY . /usr/share/nginx/html
 EXPOSE 80
